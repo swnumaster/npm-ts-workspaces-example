@@ -1,3 +1,3 @@
-export function awesomeFn() {
-  return "Hello";
+export function awesomeFn (): string {
+  return 'Hello'
 }

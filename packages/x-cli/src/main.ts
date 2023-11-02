@@ -1,7 +1,7 @@
-import { awesomeFn } from "@quramy/x-core";
+import { awesomeFn } from '@quramy/x-core'
 
-export async function main() {
+export function main (): string {
   // dependencies across child packages
-  const out = await awesomeFn();
-  return out;
+  const out = awesomeFn()
+  return out
 }

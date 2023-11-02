@@ -162,6 +162,14 @@ $ npm version --workspaces patch
 $ npm publish --workspaces
 ```
 
+## Install and config eslint
+
+```sh
+# Excecute the command in the project root path
+$ npm install eslint --save-dev
+$ npm init @eslint/config
+```
+
 ## License
 
 The MIT License (MIT)

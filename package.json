@@ -2,6 +2,8 @@
   "name": "npm-ts-workspaces-example",
   "private": true,
   "scripts": {
+    "start1": "npm run start -w @quramy/x-cli",
+    "start2": "npm run start -w ./packages/x-cli",
     "clean": "rimraf -g \"packages/**/lib\" \"packages/**/*.tsbuildinfo\"",
     "compile": "tsc -b tsconfig.build.json",
     "prettier": "prettier \"*.{js,json,yml,md}\" \"packages/**/*\"",
